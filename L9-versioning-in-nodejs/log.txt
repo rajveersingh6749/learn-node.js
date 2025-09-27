@@ -1,0 +1,17 @@
+// Version
+
+//
+5.1.0
+
+1st Part -> 5
+2nd Part -> 1
+3rd Part -> 0
+
+// 3rd Part -> Minor Fix (Optional)
+
+// 2nd Part -> Latest -> Recommended Bug Fix (Security Fix)
+
+// 3rd Par -> Major Release - Major/Breaking Update
+
+// NOTE: ^ symbol called 'caret' symbol.
+
