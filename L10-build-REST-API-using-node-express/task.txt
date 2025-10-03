@@ -1,0 +1,15 @@
+REST API - JSON
+
+GET /users - HTML document render (also called server side rendering)
+
+// NOTE: In order to make server hybrid use /api as a prefix because your client may be a mobile etc. as well
+GET /api/users - List all users
+
+GET /api/users/1 - Get the user with ID 1
+GET /api/users/2 - Get the user with ID 2
+
+POST /api/users - Create new user
+
+PATCH /api/users/id - Edit the user with ID 1
+
+DELETE /api/users/id - Delete the user with ID 1
