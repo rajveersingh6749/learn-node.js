@@ -1,11 +1,8 @@
 const express = require("express");
 const users = require("./MOCK_DATA.json");
-const fs = require("fs");
 
 const app = express();
 const PORT = 8000;
-
-app.use(express.urlencoded({ extended: false }));
 
 
 // REST API
