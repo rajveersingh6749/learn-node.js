@@ -10,16 +10,16 @@ const app = express();
 const PORT = 8000;
 
 // connection
-connectMongoDB("mongodb://127.0.0.1:27017/youtube-app-1");
+connectMongoDB("mongodb://127.0.0.1:27017/youtube-app-1").then(() => console.log("MongoDB connected!"));
 
 // middlewares
 app.use(express.urlencoded({ extended: false })); // to parse form data
 app.use(logReqRes("log.txt"));
 
 // routes
-app.use("/users", userRoutes);
+app.use("/api/users", userRoutes);
 
 
 app.listen(PORT, () => {
-  console.log("Server Started at PORT", PORT);
+  console.log(`Server Started at PORT: ${PORT}`);
 });
